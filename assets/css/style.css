@@ -25,7 +25,7 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 3px solid #ccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -71,18 +71,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: #000;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #33cc33;
-	background-color: transparent;
+	background-color: #000;
 	border-bottom: 2px solid #33cc33;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #c2c2a3;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #33cc33;
 }
 
 /* ==========================================================================
@@ -118,7 +121,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
   	font-weight: 700;
   	font-size: 62px;
-  	color: #c2c2a3;
+  	color: #fff;
+  	text-shadow:
+       	1px 1px 0 #000,
+     	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+      	 1px 1px 0 #000;
 }
 
 #headerwrap h1:hover {
@@ -167,6 +176,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 70px;
 	padding-bottom: 50px;
 	background-color: #333;
+	max-width: 100%;
+	width: auto; 
 }
 
 #footerwrap p {
@@ -282,4 +293,8 @@ h1, h2, h3, h4, h5, h6 {
 #button_wrap{
 	display: inline-block; 
 	vertical-align: middle;
+}
+
+.img-circle{
+    border: 3px solid #ccc;
 }
