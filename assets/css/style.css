@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #33cc33;
+	color: #5fcf80;
 }
 
 .navbar-default {
@@ -76,16 +76,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #33cc33;
+	color: #5fcf80;
 	background-color: #000;
-	border-bottom: 2px solid #33cc33;
+	border-bottom: 2px solid #5fcf80;
 }
 
 .navbar-default .navbar-nav > li > a {
 	color: #c2c2a3;
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: #33cc33;
+	color: #5fcf80;
 }
 
 /* ==========================================================================
@@ -117,7 +117,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
 	font-weight: bold;
   	font-weight: 700;
   	font-size: 62px;
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1:hover {
-	color: #33cc33;
+	color: #5fcf80;
 	text-shadow:
        	3px 3px 0 #000,
      	-1px -1px 0 #000,  
@@ -157,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i:hover{
-	color: #33cc33;
+	color: #5fcf80;
 }
 /*
 #social .dribbble i:hover {
@@ -178,6 +177,12 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #333;
 	max-width: 100%;
 	width: auto; 
+  	text-shadow:
+       	1px 1px 0 #000,
+     	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+      	 1px 1px 0 #000;
 }
 
 #footerwrap p {
@@ -213,10 +218,16 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 4px;
 	font-size: 58px;
 	font-weight: bold;
+  	text-shadow:
+       	1px 1px 0 #000,
+     	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+      	 1px 1px 0 #000;
 }
 
 #workwrap h1:hover{
-	color: #33cc33;
+	color: #5fcf80;
 	text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
@@ -260,10 +271,16 @@ h1, h2, h3, h4, h5, h6 {
   	font-weight: 700;
   	font-size: 62px;
   	color: #c2c2a3;
+  	text-shadow:
+       	1px 1px 0 #000,
+     	-1px -1px 0 #000,  
+      	1px -1px 0 #000,
+      	-1px 1px 0 #000,
+      	 1px 1px 0 #000;
 }
 
 #aboutwrap h1:hover {
-	color: #33cc33;
+	color: #5fcf80;
 }
 
 
@@ -276,6 +293,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+	border: 6px solid #33cc33;
+	
 }
 
 .btn-block{
